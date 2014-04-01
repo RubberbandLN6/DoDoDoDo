@@ -63,3 +63,6 @@ ul {
     float: right;
     text-align: center;
 }
+.done {
+    opacity: 0.3;
+}

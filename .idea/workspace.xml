@@ -32,19 +32,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="23" selection-start="1386" selection-end="1386" vertical-scroll-proportion="0.0" vertical-offset="806" max-vertical-offset="1190">
+            <state line="66" column="16" selection-start="1413" selection-end="1413" vertical-scroll-proportion="0.77257526" vertical-offset="891" max-vertical-offset="1241">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="35" selection-start="997" selection-end="997" vertical-scroll-proportion="0.7622378" vertical-offset="377" max-vertical-offset="748">
+            <state line="33" column="36" selection-start="943" selection-end="943" vertical-scroll-proportion="0.0" vertical-offset="377" max-vertical-offset="714">
               <folding />
             </state>
           </provider>
@@ -70,8 +70,8 @@
       <list>
         <option value="$PROJECT_DIR$/index.hmt.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/main.css" />
         <option value="$PROJECT_DIR$/application.js" />
+        <option value="$PROJECT_DIR$/main.css" />
       </list>
     </option>
   </component>
@@ -215,7 +215,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="684" y="0" width="684" height="728" extended-state="1" />
+    <frame x="684" y="0" width="684" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -340,16 +340,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.css">
+    <entry file="file://$PROJECT_DIR$/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="23" selection-start="1386" selection-end="1386" vertical-scroll-proportion="0.0" vertical-offset="806" max-vertical-offset="1190">
+        <state line="33" column="36" selection-start="943" selection-end="943" vertical-scroll-proportion="0.0" vertical-offset="377" max-vertical-offset="714">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application.js">
+    <entry file="file://$PROJECT_DIR$/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="35" selection-start="997" selection-end="997" vertical-scroll-proportion="0.7622378" vertical-offset="377" max-vertical-offset="748">
+        <state line="66" column="16" selection-start="1413" selection-end="1413" vertical-scroll-proportion="0.77257526" vertical-offset="891" max-vertical-offset="1241">
           <folding />
         </state>
       </provider>

@@ -31,8 +31,6 @@ $('#submit').click(function() {
     });
 //fades out clicked list item
     $("#items").on("click", ".new", function() {
-        $(this).css({opacity:1.0});
-    }, function(){
-        $(this).css({opacity:0.5});
+        $(this).toggleClass("done");
     });
 });
