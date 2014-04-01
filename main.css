@@ -49,7 +49,7 @@ table {
 li {
     border: 1px solid #cccccc;
     background: #eeeeee;
-    padding: 5px 10px;
+    padding: 15px 10px;
     color: #000000;
 }
 ul {
@@ -57,4 +57,9 @@ ul {
     padding: 0;
     margin: 0;
     width: 500px;
+}
+.xButton {
+    display:none;
+    float: right;
+    text-align: center;
 }
