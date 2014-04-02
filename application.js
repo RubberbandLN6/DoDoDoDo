@@ -1,10 +1,9 @@
 $(document).ready(function() {
 
-    //focus on add form
+//focus on add form
+$('.add').focus();
 
-    $('.add').focus();
-
-    //add item variable
+//add item variable
 $('#submit').click(function() {
     var current = $('#add').val();
     $("#items").append("<li class='new'>"+ current + "<button class='xButton'>X</button></li>");
@@ -33,4 +32,18 @@ $('#submit').click(function() {
     $("#items").on("click", ".new", function() {
         $(this).toggleClass("done");
     });
+//Makes list items sortable
+        $('ul').sortable();
+
+//Clear All button clears all items
+    function clearAll(){
+        $('.new').remove()
+    }
+    $('#clear').on('click', clearAll);
+
+//Clear Completed clears only checked
+    function clearDone() {
+        $('.done').remove()
+    }
+    $('#cleardone').on('click', clearDone);
 });
