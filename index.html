@@ -6,12 +6,27 @@
     <script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
     <link rel="stylesheet" type="text/css" href="main.css">
     <script type="text/javascript" src='application.js'></script>
+    <style type="text/css">
+    @font-face {
+    font-family: "MGS1";
+    src: url("METAG___.TTF") /* TTF file for CSS3 browsers */
+    }
+    @font-face {
+        font-family: "MGS2";
+        src: url("MGS2.TTF") /* TTF file for CSS3 browsers */
+    }
+    @font-face {
+        font-family: "MGSMENU";
+        src: url("MGS2MENU.TTF") /* TTF file for CSS3 browsers */
+    }
+    </style>
 </head>
 <body>
-<h1>TO DO LIST</h1>
+<h1>SOLID TO DO LIST</h1>
 
 <div class ="addBox">
-    <input id="add" type="text" placeholder="Add item here"/>
+    <input id="add" type="text" placeholder="New Item"/>
+    <br/>
     <button id ="submit">Submit</button>
     <button id ="clear">Clear All</button>
     <button id ="cleardone">Clear Completed</button>
