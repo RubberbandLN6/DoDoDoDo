@@ -6,7 +6,11 @@ $('.add').focus();
 //add item variable
 $('#submit').click(function() {
     var current = $('#add').val();
+    if (current == '') {
+        alert("Please enter something!");
+    } else {
     $("#items").append("<li class='new'>"+ current + "<button class='xButton'>X</button></li>");
+    }
 });
 //allows enter key to add items
     $("#add").keyup(function(event){
@@ -46,4 +50,10 @@ $('#submit').click(function() {
         $('.done').remove()
     }
     $('#cleardone').on('click', clearDone);
+
+/*//Makes list items editable on Double Click
+    $('#items').on('dblclick', "span", function() {
+        $(this).attr('contenteditable', true);
+    });
+*/
 });
